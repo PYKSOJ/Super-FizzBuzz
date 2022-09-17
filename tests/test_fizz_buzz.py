@@ -79,7 +79,7 @@ class SuperFizzBuzzDevide3and5(unittest.TestCase):
         self.assertEqual('FizzBuzz', test, 'fail')
 
     def test_give_highest_bordery(self):
-        num = 9990
+        num = 9975
         test = super_fizz_buzz(num)
         self.assertEqual('FizzBuzz', test, 'fail')
 
